@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    float: left;
+    margin: 0px 100px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: blue
+}
+
+article {
+    margin-left: 100px
+}
+
+/*CSS pour animation*/
+.console-underscore {
+    display:inline-block;
+   position:relative;
+   top:-0.14em;
+   left:10px;
+}
+
+.hidden {
+    opacity:0;
+}
