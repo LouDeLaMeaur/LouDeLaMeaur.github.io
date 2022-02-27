@@ -38,7 +38,7 @@ nav a::after{
     width: 100%;
     height: 2px;
     background: #000;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.15s ease-in-out;
     transform: scale(0);
 }
 
@@ -57,34 +57,10 @@ article {
 /*CSS pour animation*/
 .console-underscore {
     display:inline-block;
-   position:relative;
-   top:-0.14em;
-   left:10px;
+    position:relative;
+    left:10px;
 }
 
 .hidden {
     opacity:0;
-}
-
-/*CSS Animation underline*/
-
-#ani{
-    text-align: center;
-    font-size: 80px;
-    cursor: pointer;
-}
-
-#ani::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 50%;
-    height: 3px;
-    background: #000;
-    transition: transform 0.2s ease-in-out;
-    transform: scale(0);
-}
-
-#ani:hover::after{
-    transform: scale(1);
 }
