@@ -14,20 +14,19 @@ nav {
     margin: 20px 0px;
 }
 
-nav ul {
+nav #menu {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-nav ul li {
+nav #menu li {
     float: left;
     margin: 0px 100px;
     text-align: center;
 }
 
-nav a {
-    display: block;
+a {
     text-decoration: none;
     color: black;
 }
@@ -50,9 +49,50 @@ nav a:hover::after {
     transform: scale(1);
 }
 
-article {
-    margin-left: 100px
+.titre {
+    text-decoration: underline;
 }
+
+#boite {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.l-projet {
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.r-projet {
+    text-align: right;
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.test {
+    display: inline;
+}
+
+.l-illu {
+    float:left;
+    max-height: 250px;
+    border: solid 3px black;
+    margin-right: 10px;
+}
+
+.r-illu {
+    float: right;
+    max-height: 250px;
+    border: solid 3px black;
+    margin-left: 10px;
+}
+
+hr {
+    clear: both;
+}
+
+
 
 /*CSS pour animation*/
 .console-underscore {
