@@ -43,8 +43,20 @@ main {
     color: #fff;
 }
 
+.prout {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('prout.gif'); /* Image de fond pour le héros */
+    background-size: cover;
+    color: #fff;
+}
+ caca {
+     width: fit-content;
+ }
+
 .content {
     margin-top: 50px;
+    overflow-wrap: break-word;
 }
 
 footer {
@@ -52,4 +64,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
